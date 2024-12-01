@@ -1,5 +1,7 @@
 package net.carter.theenderadventure;
 
+import net.carter.theenderadventure.block.ModBlocks;
+import net.carter.theenderadventure.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class TheEnderAdventure implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
