@@ -3,8 +3,9 @@
   "item.the-ender-adventure.raw_enderite": "Raw Enderite",
 
   "block.the-ender-adventure.enderite_block": "Block of Enderite",
+  "block.the-ender-adventure.enderite_end_ore": "Enderite End Ore",
 
 
   "itemgroup.enderite": "Enderite Items",
-  "itemgroup.enderite_blocks": "Enderite Blocks Group"
+  "itemgroup.enderite_blocks": "Enderite Blocks"
 }

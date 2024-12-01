@@ -3,18 +3,27 @@ package net.carter.theenderadventure.block;
 import net.carter.theenderadventure.TheEnderAdventure;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 
 public class ModBlocks {
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.NETHERITE)
                     .strength(75f).requiresTool()));
+
+    public static final Block ENDERITE_END_ORE = registerBlock("enderite_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(85f).requiresTool()));
+
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
