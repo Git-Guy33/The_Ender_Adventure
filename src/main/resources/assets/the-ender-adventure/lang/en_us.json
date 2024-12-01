@@ -1,4 +1,10 @@
 {
   "item.the-ender-adventure.enderite": "Enderite",
-  "item.the-ender-adventure.raw_enderite": "Raw Enderite"
+  "item.the-ender-adventure.raw_enderite": "Raw Enderite",
+
+  "block.the-ender-adventure.enderite_block": "Block of Enderite",
+
+
+  "itemgroup.enderite": "Enderite Items",
+  "itemgroup.enderite_blocks": "Enderite Blocks Group"
 }

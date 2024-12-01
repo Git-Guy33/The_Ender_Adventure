@@ -1,6 +1,7 @@
 package net.carter.theenderadventure;
 
 import net.carter.theenderadventure.block.ModBlocks;
+import net.carter.theenderadventure.item.ModItemGroups;
 import net.carter.theenderadventure.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class TheEnderAdventure implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
