@@ -16,11 +16,11 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.NETHERITE)
-                    .strength(75f).requiresTool()));
+                    .strength(50f).requiresTool()));
 
     public static final Block ENDERITE_END_ORE = registerBlock("enderite_end_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
-                    AbstractBlock.Settings.create().strength(85f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(75f).requiresTool()));
 
 
 
