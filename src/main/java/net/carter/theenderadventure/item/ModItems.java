@@ -1,6 +1,7 @@
 package net.carter.theenderadventure.item;
 
 import net.carter.theenderadventure.TheEnderAdventure;
+import net.carter.theenderadventure.item.custom.MagicChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -13,6 +14,7 @@ public class ModItems {
     public static final Item ENDERITE = registerItem("enderite", new Item(new Item.Settings()));
     public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new Item.Settings()));
 
+    public static final Item MAGIC_CHISEL = registerItem("magic_chisel", new MagicChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item VEILBERRY = registerItem("veilberry", new Item(new Item.Settings().food(ModFoodComponents.VEILBERRY)));
 
 
