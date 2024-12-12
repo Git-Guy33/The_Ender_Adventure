@@ -17,8 +17,11 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ENDERITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ENDERITE);
                         entries.add(ModItems.RAW_ENDERITE);
+
                         entries.add(ModItems.VEILBERRY);
                         entries.add(ModItems.MAGIC_CHISEL);
+
+                        entries.add(ModItems.STAR_CORE);
                     }).build());
 
     public static final ItemGroup ENDERITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,

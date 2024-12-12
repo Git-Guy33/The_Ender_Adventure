@@ -17,6 +17,8 @@ public class ModItems {
     public static final Item MAGIC_CHISEL = registerItem("magic_chisel", new MagicChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item VEILBERRY = registerItem("veilberry", new Item(new Item.Settings().food(ModFoodComponents.VEILBERRY)));
 
+    public static final Item STAR_CORE = registerItem("star_core", new Item(new Item.Settings()));
+
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TheEnderAdventure.MOD_ID, name), item);
