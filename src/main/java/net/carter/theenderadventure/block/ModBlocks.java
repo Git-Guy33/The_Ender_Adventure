@@ -1,6 +1,7 @@
 package net.carter.theenderadventure.block;
 
 import net.carter.theenderadventure.TheEnderAdventure;
+import net.carter.theenderadventure.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -23,7 +24,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(75f).requiresTool()));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new Block(AbstractBlock.Settings.create().strength(25f).requiresTool()));
+            new MagicBlock(AbstractBlock.Settings.create().strength(25f).requiresTool()));
 
 
 
