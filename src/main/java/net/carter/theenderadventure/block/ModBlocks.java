@@ -22,6 +22,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
                     AbstractBlock.Settings.create().strength(75f).requiresTool()));
 
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new Block(AbstractBlock.Settings.create().strength(25f).requiresTool()));
 
 
 
