@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "the-ender-adventure:block/magic_block"
+  "variants":{
+    "": {
+      "model": "the-ender-adventure:block/magic_block"
+    }
   }
 }
