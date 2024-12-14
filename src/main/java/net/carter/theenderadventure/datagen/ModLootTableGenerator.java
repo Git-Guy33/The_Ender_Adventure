@@ -31,8 +31,11 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ENDERITE_END_ORE, multipleOreDrops(ModBlocks.ENDERITE_END_ORE, ModItems.RAW_ENDERITE, 3, 6));
 
+        addDrop(ModBlocks.PURPUR_BRICKS);
         addDrop(ModBlocks.PURPUR_BRICK_STAIRS);
         addDrop(ModBlocks.PURPUR_BRICK_SLAB, slabDrops(ModBlocks.PURPUR_BRICK_SLAB));
+        addDrop(ModBlocks.PURPUR_BRICK_BUTTON);
+        addDrop(ModBlocks.PURPUR_BRICK_PRESSURE_PLATE);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
