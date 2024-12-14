@@ -13,5 +13,11 @@
   "block.the-ender-adventure.magic_block": "Magic Block",
 
   "itemgroup.enderite": "Enderite Items",
-  "itemgroup.enderite_blocks": "Enderite Blocks"
+  "itemgroup.enderite_blocks": "Enderite Blocks",
+
+  "tooltip.the-ender-adventure.magic_block.tooltip": "This Block Is §5PURE§r Magic!",
+
+  "tooltip.the-ender-adventure.magic_chisel_shift_down": "This Magical Chisel Turns Normal Blocks Into Fancy Blocks!",
+  "tooltip.the-ender-adventure.magic_chisel": "Press §eShift§r For More Info!",
+  "tooltip.the-ender-adventure.veilberry.tooltip": "This Mysterious Berry Sometimes Makes You Invisible When You Eat It!"
 }
