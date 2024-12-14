@@ -18,7 +18,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDERITE_END_ORE);
 
+        BlockStateModelGenerator.BlockTexturePool purpur_bricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPUR_BRICKS);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
+
+        purpur_bricksTexturePool.stairs(ModBlocks.PURPUR_BRICK_STAIRS);
+        purpur_bricksTexturePool.slab(ModBlocks.PURPUR_BRICK_SLAB);
+
     }
 
     @Override

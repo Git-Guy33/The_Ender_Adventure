@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "the-ender-adventure:block/purpur_bricks",
+    "side": "the-ender-adventure:block/purpur_bricks",
+    "top": "the-ender-adventure:block/purpur_bricks"
+  }
+}

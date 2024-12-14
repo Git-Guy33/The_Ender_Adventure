@@ -2,9 +2,7 @@ package net.carter.theenderadventure.block;
 
 import net.carter.theenderadventure.TheEnderAdventure;
 import net.carter.theenderadventure.block.custom.MagicBlock;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -28,6 +26,13 @@ public class ModBlocks {
 
     public static final Block PURPUR_BRICKS = registerBlock("purpur_bricks",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool()));
+
+    public static final Block PURPUR_BRICK_SLAB = registerBlock("purpur_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
+    public static final Block PURPUR_BRICK_STAIRS = registerBlock("purpur_brick_stairs",
+            new StairsBlock(ModBlocks.PURPUR_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
