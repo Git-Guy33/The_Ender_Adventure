@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enderite_end_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "the-ender-adventure:enderite_end_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:enderite_from_smelting_enderite_end_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enderite_end_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:enderite_from_smelting_enderite_end_ore"
+    ]
+  }
+}

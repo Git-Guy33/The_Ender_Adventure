@@ -29,7 +29,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.enderite_blocks"))
                     .icon(() -> new ItemStack(ModBlocks.ENDERITE_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ENDERITE_BLOCK);
-
+                        entries.add(ModBlocks.PURPUR_BRICKS);
                         entries.add(ModBlocks.ENDERITE_END_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);

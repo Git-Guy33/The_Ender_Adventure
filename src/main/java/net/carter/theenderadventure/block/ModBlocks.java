@@ -26,7 +26,8 @@ public class ModBlocks {
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(25f).requiresTool()));
 
-
+    public static final Block PURPUR_BRICKS = registerBlock("purpur_bricks",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
