@@ -28,11 +28,16 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool()));
 
     public static final Block PURPUR_BRICK_SLAB = registerBlock("purpur_brick_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+            new SlabBlock(AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
 
     public static final Block PURPUR_BRICK_STAIRS = registerBlock("purpur_brick_stairs",
             new StairsBlock(ModBlocks.PURPUR_BRICKS.getDefaultState(),
                     AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+    public static final Block PURPUR_BRICK_BUTTON = registerBlock("purpur_brick_button",
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool()));
+    public static final Block PURPUR_BRICK_PRESSURE_PLATE = registerBlock("purpur_brick_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "the-ender-adventure:block/purpur_bricks"
+  }
+}
