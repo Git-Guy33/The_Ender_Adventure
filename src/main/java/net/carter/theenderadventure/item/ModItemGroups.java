@@ -35,6 +35,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURPUR_BRICK_STAIRS);
                         entries.add(ModBlocks.PURPUR_BRICK_PRESSURE_PLATE);
                         entries.add(ModBlocks.PURPUR_BRICK_BUTTON);
+                        entries.add(ModBlocks.PURPUR_BRICK_FENCE);
+                        entries.add(ModBlocks.PURPUR_BRICK_WALL);
 
                         entries.add(ModBlocks.ENDERITE_END_ORE);
 

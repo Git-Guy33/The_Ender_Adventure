@@ -1,3 +1,5 @@
-// 1.21	2024-12-14T18:28:31.523831	The Ender Adventure/Tags for minecraft:block
-4a1987631ee859c4461b26c4463ca438aa73149a data\minecraft\tags\block\needs_diamond_tool.json
-4a1987631ee859c4461b26c4463ca438aa73149a data\minecraft\tags\block\mineable\pickaxe.json
+// 1.21	2024-12-15T12:36:18.2918265	The Ender Adventure/Tags for minecraft:block
+500b18de05cc007309b05a67e6b5891d7b03c063 data\minecraft\tags\block\walls.json
+39aa6c6cc89e3340eef6fb13adf0d8c8d0b61fcd data\minecraft\tags\block\fences.json
+c147f26d8e225671f8c6be77f425d35a10f50c73 data\minecraft\tags\block\needs_diamond_tool.json
+0a1157e41300a221a1feea29eeb92003b57cf494 data\minecraft\tags\block\mineable\pickaxe.json

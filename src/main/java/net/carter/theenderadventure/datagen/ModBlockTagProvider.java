@@ -17,10 +17,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ENDERITE_BLOCK,
-                        ModBlocks.ENDERITE_END_ORE);
+                        ModBlocks.ENDERITE_END_ORE,
+                        ModBlocks.PURPUR_BRICK_WALL,
+                        ModBlocks.PURPUR_BRICKS,
+                        ModBlocks.PURPUR_BRICK_BUTTON,
+                        ModBlocks.PURPUR_BRICK_FENCE,
+                        ModBlocks.PURPUR_BRICK_BUTTON,
+                        ModBlocks.PURPUR_BRICK_STAIRS,
+                        ModBlocks.PURPUR_BRICK_PRESSURE_PLATE,
+                        ModBlocks.PURPUR_BRICK_SLAB,
+                        ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ENDERITE_BLOCK,
-                        ModBlocks.ENDERITE_END_ORE);
+                        ModBlocks.ENDERITE_END_ORE,
+                        ModBlocks.MAGIC_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.PURPUR_BRICK_WALL);
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.PURPUR_BRICK_FENCE);
     }
 }

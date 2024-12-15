@@ -26,6 +26,8 @@ public class ModModelProvider extends FabricModelProvider {
         purpur_bricksTexturePool.slab(ModBlocks.PURPUR_BRICK_SLAB);
         purpur_bricksTexturePool.button(ModBlocks.PURPUR_BRICK_BUTTON);
         purpur_bricksTexturePool.pressurePlate(ModBlocks.PURPUR_BRICK_PRESSURE_PLATE);
+        purpur_bricksTexturePool.wall(ModBlocks.PURPUR_BRICK_WALL);
+        purpur_bricksTexturePool.fence(ModBlocks.PURPUR_BRICK_FENCE);
     }
 
     @Override
