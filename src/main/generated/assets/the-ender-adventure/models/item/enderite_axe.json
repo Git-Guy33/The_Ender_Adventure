@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "the-ender-adventure:item/enderite_axe"
+  }
+}

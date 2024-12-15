@@ -22,6 +22,13 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGIC_CHISEL);
 
                         entries.add(ModItems.STAR_CORE);
+
+                        entries.add(ModItems.ENDERITE_AXE);
+                        entries.add(ModItems.ENDERITE_HOE);
+                        entries.add(ModItems.ENDERITE_PICKAXE);
+                        entries.add(ModItems.ENDERITE_SHOVEL);
+                        entries.add(ModItems.ENDERITE_SWORD);
+
                     }).build());
 
     public static final ItemGroup ENDERITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -41,6 +48,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDERITE_END_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+
 
                     }).build());
 

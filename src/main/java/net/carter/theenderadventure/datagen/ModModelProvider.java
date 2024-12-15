@@ -38,5 +38,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAGIC_CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.VEILBERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.STAR_CORE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ENDERITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_HOE, Models.HANDHELD);
     }
 }
