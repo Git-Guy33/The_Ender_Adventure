@@ -5,13 +5,12 @@ import net.carter.theenderadventure.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    ENDERITE(ModTags.Blocks.INCORRECT_FOR_ENDERITE_TOOL, 4062, 9.0F, 8.0F, 22, () -> Ingredient.ofItems(ModItems.ENDERITE));
+    ENDERITE(ModTags.Blocks.INCORRECT_FOR_ENDERITE_TOOL, 3385, 15.0F, 6.0F, 22, () -> Ingredient.ofItems(ModItems.ENDERITE));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

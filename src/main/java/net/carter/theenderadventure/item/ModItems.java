@@ -36,13 +36,15 @@ public class ModItems {
                     new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 1, -3f))));
     public static final Item ENDERITE_SHOVEL = registerItem("enderite_shovel",
             new ShovelItem(ModToolMaterials.ENDERITE,
-                    new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 1f, -3.2f))));
+                    new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 1f, -3f))));
     public static final Item ENDERITE_AXE = registerItem("enderite_axe",
             new AxeItem(ModToolMaterials.ENDERITE,
-                    new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 8, -3.7f))));
+                    new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 8, -2.5f))));
     public static final Item ENDERITE_HOE = registerItem("enderite_hoe",
             new HoeItem(ModToolMaterials.ENDERITE,
                     new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 0, -3f))));
+
+
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TheEnderAdventure.MOD_ID, name), item);
