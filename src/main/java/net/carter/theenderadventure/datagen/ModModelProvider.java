@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -45,9 +46,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDERITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDERITE_HOE, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.ENDERITE_HELMET, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.ENDERITE_CHESTPLATE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.ENDERITE_LEGGINGS, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.ENDERITE_BOOTS, Models.HANDHELD);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_BOOTS));
     }
 }
