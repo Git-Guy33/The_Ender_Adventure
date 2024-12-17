@@ -1,4 +1,4 @@
-// 1.21	2024-12-17T12:09:45.0699621	The Ender Adventure/Model Definitions
+// 1.21	2024-12-17T12:10:45.7104901	The Ender Adventure/Model Definitions
 0d7e63083d394abe5bc025e99043259fbb1aac69 assets\the-ender-adventure\models\block\purpur_brick_wall_side.json
 830b54909f89bf5a3dbc3e8abe31b6481b4e68bb assets\the-ender-adventure\models\block\purpur_brick_wall_inventory.json
 c6b50b93339b68fb91ea5c6c042a2da8d97cce64 assets\the-ender-adventure\models\item\enderite_sword.json
@@ -29,8 +29,8 @@ a369dc098cf3f8ae9ebe09b269895002e812f682 assets\the-ender-adventure\blockstates\
 3cc8ce4fec8bb23144bf7dec4bd89f73d131221e assets\the-ender-adventure\models\item\enderite_helmet_quartz_trim.json
 53ff7e31279f316d25222b040f982dcfe37f7805 assets\the-ender-adventure\models\block\purpur_brick_pressure_plate_down.json
 a125f8d08ef9e08a2c798db2e2bfca7e8a7897ba assets\the-ender-adventure\models\item\enderite_helmet_lapis_trim.json
-779ea47b45e18da54e1403c5daa393a1f3c154fd assets\the-ender-adventure\models\block\purpur_brick_stairs.json
 99ac1523872f26ee5b898532d258efe94aaf5ed5 assets\the-ender-adventure\models\item\enderite_helmet_amethyst_trim.json
+779ea47b45e18da54e1403c5daa393a1f3c154fd assets\the-ender-adventure\models\block\purpur_brick_stairs.json
 18890430c1f887f3448f4054e843516c8b6312e9 assets\the-ender-adventure\models\item\enderite_boots_copper_trim.json
 1fa41155a768f7ce3f241db1c9e3542f097c42d0 assets\the-ender-adventure\models\item\enderite_chestplate_netherite_trim.json
 47a64e5fbd7be5d6cece7eb48fb7e13e866b4fe4 assets\the-ender-adventure\models\item\enderite_boots_lapis_trim.json
@@ -60,8 +60,8 @@ bd8cd5aa3b95f9e784dc4c734b2bccfe650ada7a assets\the-ender-adventure\models\block
 d41ceb6af7e3cfee40ded32880c87b5c9672d8df assets\the-ender-adventure\models\block\purpur_brick_wall_side_tall.json
 f0a7c64a7893b2266386050c009c38f1da746e61 assets\the-ender-adventure\blockstates\purpur_brick_pressure_plate.json
 1e9a0aa3366f3043a765eccd79d29ee67ebe1b6d assets\the-ender-adventure\models\item\enderite_helmet_copper_trim.json
-ae2738a066ec0b5d9bb3d9b56b34862f2a058516 assets\the-ender-adventure\models\block\purpur_bricks.json
 04a6ac926b0b74501617004d441035db47159ed4 assets\the-ender-adventure\models\item\enderite_leggings_amethyst_trim.json
+ae2738a066ec0b5d9bb3d9b56b34862f2a058516 assets\the-ender-adventure\models\block\purpur_bricks.json
 9b4989722240ad0732bdda4d16ad23d734704a78 assets\the-ender-adventure\models\item\enderite_chestplate_iron_trim.json
 a3d99e84c118a3a3117e45c7d7455bc9327517c4 assets\the-ender-adventure\models\item\enderite_leggings_copper_trim.json
 3b1a13afa3f346a68087e349bc34aa17b780548e assets\the-ender-adventure\models\item\enderite_leggings_emerald_trim.json
