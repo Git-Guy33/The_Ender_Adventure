@@ -1,4 +1,4 @@
-// 1.21	2024-12-15T18:55:50.8475947	The Ender Adventure/Model Definitions
+// 1.21	2024-12-17T08:36:08.1256289	The Ender Adventure/Model Definitions
 0d7e63083d394abe5bc025e99043259fbb1aac69 assets\the-ender-adventure\models\block\purpur_brick_wall_side.json
 830b54909f89bf5a3dbc3e8abe31b6481b4e68bb assets\the-ender-adventure\models\block\purpur_brick_wall_inventory.json
 c6b50b93339b68fb91ea5c6c042a2da8d97cce64 assets\the-ender-adventure\models\item\enderite_sword.json
@@ -22,8 +22,10 @@ a369dc098cf3f8ae9ebe09b269895002e812f682 assets\the-ender-adventure\blockstates\
 5dc6c62dfee9957b1a2ecc0a7746f6e63b63af1d assets\the-ender-adventure\models\item\magic_block.json
 95d8eb3b811e9458d0bf42fbde406c1889ba7076 assets\the-ender-adventure\models\block\purpur_brick_fence_side.json
 b4898ce244e350e59e063fc3d0c8e7b8fbdb24d9 assets\the-ender-adventure\models\item\enderite.json
+22b7241503ce0a4b0f068f3b7cbf589a723301c8 assets\the-ender-adventure\models\item\enderite_boots.json
 9e3e6c9b24dfbc0b0ca85d21d40e4da539dde35d assets\the-ender-adventure\models\item\enderite_block.json
 a6262078e677902b25f75a90bbf4c2be8c2675b8 assets\the-ender-adventure\models\item\enderite_pickaxe.json
+769d05c10b82edf40cd9effdd86c76f5fd51822c assets\the-ender-adventure\models\item\enderite_helmet.json
 268a606a3380567dff1be77f71baddbffdb0048a assets\the-ender-adventure\blockstates\purpur_brick_fence.json
 49f8ee6505ad6e554a7a4cdf20ded08d31d2acad assets\the-ender-adventure\models\item\purpur_brick_button.json
 bf09be0df21fbca83f3abe7afe3df7ea27148ec6 assets\the-ender-adventure\models\block\purpur_brick_button_inventory.json
@@ -46,7 +48,9 @@ d0dcf3d2e59e00a08cba7c13bdc1f091539347db assets\the-ender-adventure\models\item\
 364985b9bdaa0d99ccd609ff6fdeb0c121762f2b assets\the-ender-adventure\models\block\purpur_brick_button.json
 9a511c505cc7197b651d8720f7f5108e97988c66 assets\the-ender-adventure\blockstates\enderite_end_ore.json
 fffe07a069af25f3541724f9c3fec00a96c7ef14 assets\the-ender-adventure\blockstates\magic_block.json
+985089af9faa8f15cb8ae7d24c4538d91b6cf156 assets\the-ender-adventure\models\item\enderite_chestplate.json
 72924cb2e962361f9311ddc5fd8bd8474dfc2cc1 assets\the-ender-adventure\models\block\purpur_brick_stairs_outer.json
+cbb22e15bca7e76d1c63d0ed5d41781098486190 assets\the-ender-adventure\models\item\enderite_leggings.json
 12d695f277d9b96af0303b0a08dc6c3733d36e1d assets\the-ender-adventure\blockstates\purpur_brick_button.json
 3b386e0750995b9eb8b76ef74d03a5460296f3bd assets\the-ender-adventure\models\block\magic_block.json
 98a70e9e9dffa38e98b6156040a8f92bf62f65ce assets\the-ender-adventure\models\item\purpur_brick_stairs.json

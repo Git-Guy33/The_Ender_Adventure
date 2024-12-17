@@ -44,6 +44,18 @@ public class ModItems {
             new HoeItem(ModToolMaterials.ENDERITE,
                     new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ENDERITE, 0, -3f))));
 
+    public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",
+            new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(7))));
+    public static final Item ENDERITE_CHESTPLATE = registerItem("enderite_chestplate",
+            new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
+    public static final Item ENDERITE_LEGGINGS = registerItem("enderite_leggings",
+            new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
+    public static final Item ENDERITE_BOOTS = registerItem("enderite_boots",
+            new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
 
     public static Item registerItem(String name, Item item) {

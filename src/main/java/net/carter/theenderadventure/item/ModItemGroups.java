@@ -29,6 +29,11 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDERITE_SHOVEL);
                         entries.add(ModItems.ENDERITE_SWORD);
 
+                        entries.add(ModItems.ENDERITE_HELMET);
+                        entries.add(ModItems.ENDERITE_CHESTPLATE);
+                        entries.add(ModItems.ENDERITE_LEGGINGS);
+                        entries.add(ModItems.ENDERITE_BOOTS);
+
                     }).build());
 
     public static final ItemGroup ENDERITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,

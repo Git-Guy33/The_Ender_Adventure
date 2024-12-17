@@ -44,5 +44,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDERITE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDERITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDERITE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.ENDERITE_HELMET, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_CHESTPLATE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_LEGGINGS, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDERITE_BOOTS, Models.HANDHELD);
     }
 }
