@@ -18,6 +18,8 @@
 
   "item.the-ender-adventure.star_core": "Star Core",
 
+  "item.the-ender-adventure.lost_armor_trim_smithing_template": "Lost Smithing Template",
+
   "block.the-ender-adventure.enderite_block": "Block of Enderite",
   "block.the-ender-adventure.enderite_end_ore": "Enderite End Ore",
   "block.the-ender-adventure.purpur_bricks": "Purpur Bricks",
@@ -37,5 +39,9 @@
 
   "tooltip.the-ender-adventure.magic_chisel_shift_down": "This Magical Chisel Turns Normal Blocks Into Fancy Blocks!",
   "tooltip.the-ender-adventure.magic_chisel": "Press §eShift§r For More Info!",
-  "tooltip.the-ender-adventure.veilberry.tooltip": "This Mysterious Berry Sometimes Makes You Invisible When You Eat It!"
+  "tooltip.the-ender-adventure.veilberry.tooltip": "This Mysterious Berry Sometimes Makes You Invisible When You Eat It!",
+
+  "trim.material.the-ender-adventure.enderite": "Enderite Material",
+  "trim.pattern.the-ender-adventure.lost": "Lost Armor Trim"
+
 }

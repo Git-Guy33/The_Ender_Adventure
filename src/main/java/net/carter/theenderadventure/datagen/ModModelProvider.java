@@ -50,5 +50,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ENDERITE_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LOST_SMITHING_TEMPLATE));
     }
 }

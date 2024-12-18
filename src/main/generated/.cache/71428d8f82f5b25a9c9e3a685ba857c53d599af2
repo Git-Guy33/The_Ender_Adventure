@@ -1,4 +1,4 @@
-// 1.21	2024-12-17T12:10:45.7104901	The Ender Adventure/Model Definitions
+// 1.21	2024-12-18T07:24:48.3400105	The Ender Adventure/Model Definitions
 0d7e63083d394abe5bc025e99043259fbb1aac69 assets\the-ender-adventure\models\block\purpur_brick_wall_side.json
 830b54909f89bf5a3dbc3e8abe31b6481b4e68bb assets\the-ender-adventure\models\block\purpur_brick_wall_inventory.json
 c6b50b93339b68fb91ea5c6c042a2da8d97cce64 assets\the-ender-adventure\models\item\enderite_sword.json
@@ -20,8 +20,8 @@ e311c70e37a36640b302a92dbd1b0b3326e7d053 assets\the-ender-adventure\models\item\
 889801079135effec1f6a639dde712765445ea3e assets\the-ender-adventure\models\item\purpur_brick_pressure_plate.json
 672800929ad77f35e656a9f9157d0b0c99dfb83d assets\the-ender-adventure\models\item\purpur_brick_fence.json
 39fe852d7babb4fb415c6866ec0fcdb8d0b5f3ca assets\the-ender-adventure\models\item\enderite_chestplate_redstone_trim.json
-391bb2141db1ac9180307865ab784f2e4484c0ac assets\the-ender-adventure\models\item\enderite_leggings_diamond_trim.json
 2bdab6bb6dfa3e7d7c5c24f524361295f4b986f3 assets\the-ender-adventure\models\block\enderite_end_ore.json
+391bb2141db1ac9180307865ab784f2e4484c0ac assets\the-ender-adventure\models\item\enderite_leggings_diamond_trim.json
 309005ad4d09310357222dd521e9f81aea61ef77 assets\the-ender-adventure\models\block\purpur_brick_slab.json
 4cc47566139cabea947d88402f8142c8e2791bfe assets\the-ender-adventure\models\item\purpur_brick_slab.json
 e46b6ba5719fdc0c7e966f8369eb74c8eac565e5 assets\the-ender-adventure\models\block\purpur_brick_stairs_inner.json

@@ -1,0 +1,8 @@
+{
+  "asset_id": "the-ender-adventure:lost",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.the-ender-adventure.lost"
+  },
+  "template_item": "the-ender-adventure:lost_armor_trim_smithing_template"
+}

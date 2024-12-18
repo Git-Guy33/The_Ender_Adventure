@@ -1,0 +1,9 @@
+{
+  "asset_name": "enderite",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.the-ender-adventure.enderite"
+  },
+  "ingredient": "the-ender-adventure:enderite",
+  "item_model_index": 1.0
+}

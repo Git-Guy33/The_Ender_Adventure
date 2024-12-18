@@ -8,6 +8,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -57,6 +58,8 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
+    public static final Item LOST_SMITHING_TEMPLATE = registerItem("lost_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(TheEnderAdventure.MOD_ID, "lost"), FeatureFlags.VANILLA));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TheEnderAdventure.MOD_ID, name), item);

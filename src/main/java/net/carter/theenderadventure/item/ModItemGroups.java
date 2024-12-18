@@ -34,6 +34,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDERITE_LEGGINGS);
                         entries.add(ModItems.ENDERITE_BOOTS);
 
+                        entries.add(ModItems.LOST_SMITHING_TEMPLATE);
+
                     }).build());
 
     public static final ItemGroup ENDERITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
