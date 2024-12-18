@@ -1,5 +1,6 @@
 package net.carter.theenderadventure.datagen;
 
+import net.carter.theenderadventure.TheEnderAdventure;
 import net.carter.theenderadventure.block.ModBlocks;
 import net.carter.theenderadventure.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -10,6 +11,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -37,5 +39,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE))
                 .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
                 .offerTo(exporter);
+
+        offerSmithingTrimRecipe(exporter, ModItems.LOST_SMITHING_TEMPLATE, Identifier.of(TheEnderAdventure.MOD_ID, "lost"));
     }
 }
