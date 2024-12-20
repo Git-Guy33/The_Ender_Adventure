@@ -1,13 +1,13 @@
 package net.carter.theenderadventure.datagen;
 
 import net.carter.theenderadventure.block.ModBlocks;
+import net.carter.theenderadventure.block.custom.EnderLampBlock;
 import net.carter.theenderadventure.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -22,6 +22,11 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool purpur_bricksTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPUR_BRICKS);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
+
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.ENDER_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.ENDER_LAMP, "on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.ENDER_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(EnderLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
 
         purpur_bricksTexturePool.stairs(ModBlocks.PURPUR_BRICK_STAIRS);
         purpur_bricksTexturePool.slab(ModBlocks.PURPUR_BRICK_SLAB);

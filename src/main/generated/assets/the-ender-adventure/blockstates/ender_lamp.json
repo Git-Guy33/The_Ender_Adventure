@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "the-ender-adventure:block/ender_lamp"
+    },
+    "clicked=true": {
+      "model": "the-ender-adventure:block/ender_lamp_on"
+    }
+  }
+}

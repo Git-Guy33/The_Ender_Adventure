@@ -5,6 +5,7 @@ import net.carter.theenderadventure.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
+import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
@@ -27,7 +28,10 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.ENDERITE_BLOCK);
+
         addDrop(ModBlocks.MAGIC_BLOCK);
+
+        addDrop(ModBlocks.ENDER_LAMP);
 
         addDrop(ModBlocks.ENDERITE_END_ORE, multipleOreDrops(ModBlocks.ENDERITE_END_ORE, ModItems.RAW_ENDERITE, 3, 6));
 

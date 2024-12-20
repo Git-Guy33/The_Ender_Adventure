@@ -1,6 +1,7 @@
 package net.carter.theenderadventure.block;
 
 import net.carter.theenderadventure.TheEnderAdventure;
+import net.carter.theenderadventure.block.custom.EnderLampBlock;
 import net.carter.theenderadventure.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -23,6 +24,10 @@ public class ModBlocks {
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(25f).requiresTool()));
+
+    public static final Block ENDER_LAMP = registerBlock("ender_lamp",
+            new EnderLampBlock(AbstractBlock.Settings.create()
+                    .strength(25f).requiresTool().luminance(state -> state.get(EnderLampBlock.CLICKED) ? 15 : 0)));
 
     public static final Block PURPUR_BRICKS = registerBlock("purpur_bricks",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool()));

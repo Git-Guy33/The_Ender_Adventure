@@ -56,6 +56,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
 
+                        entries.add(ModBlocks.ENDER_LAMP);
+
 
 
                     }).build());
